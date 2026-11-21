@@ -1,0 +1,23 @@
+name: CI
+on: [push, pull_request]
+permissions: { contents: read }
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "24" }
+      - name: Python tests, golden regression, synthetic fab sets
+        run: pip install "cryptography>=42,<48" && python scripts/evaluate.py
+      - name: Engine, importer and browser-backend tests (node --test)
+        run: node --test "tests/js/*.test.ts"
+      - name: Python and TypeScript engines classify identically
+        run: python scripts/parity.py
+      - name: Every UI string has English
+        run: node scripts/i18n-check.mjs
+      - name: Static export build
+        run: npm ci --no-audit --no-fund && npm run build
+        working-directory: apps/web

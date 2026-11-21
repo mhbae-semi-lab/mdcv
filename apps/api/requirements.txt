@@ -1,0 +1,6 @@
+fastapi==0.110.3
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+cryptography>=42,<48  # AES-GCM for tokens and mail bodies at rest (required)
+anthropic>=0.72  # only used when MDCV_LLM_PROVIDER=anthropic
+pypdf>=4.0  # PDF 첨부 텍스트 추출(선택). 없으면 PDF만 건너뜀

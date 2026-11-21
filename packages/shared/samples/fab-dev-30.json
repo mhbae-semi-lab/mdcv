@@ -1,0 +1,558 @@
+[
+  {
+    "id": "dev-01",
+    "subject": "[알람] INSP-03 ALM-2041 스테이지 위치 편차 초과 (Critical)",
+    "senderName": "장비 모니터링 시스템",
+    "senderEmail": "eqmon-noreply@example.com",
+    "receivedAt": "2026-11-16T07:12:00",
+    "bodyText": "본 메일은 장비 모니터링 시스템에서 자동 발송되었습니다.\n\n장비: INSP-03 (2팹 3층 검사 Bay)\n알람 코드: ALM-2041 / 스테이지 X축 위치 편차 허용치 초과\n발생 시각: 2026-11-16 07:05:31\n상태: 장비 정지(Down), 대기 로트 2건\n\n담당 엔지니어는 즉시 현장 확인 후 조치 결과를 등록해 주시기 바랍니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "urgent",
+      "equipment": [
+        "INSP-03",
+        "스테이지"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-02",
+    "subject": "INSP-03 다운 관련 긴급 지원 요청",
+    "senderName": "최가온",
+    "senderEmail": "gaon.choi@example.net",
+    "receivedAt": "2026-11-16T07:48:00",
+    "bodyText": "이준서 님, 안녕하세요. 2팹 검사기술팀 최가온입니다.\n\n오늘 아침 7시 무렵부터 INSP-03이 스테이지 알람으로 멈춰 있어 대기 로트가 계속 쌓이고 있습니다.\n현장 출동 가능 여부와 예상 도착 시간을 회신 부탁드립니다.\n오전 10시 생산회의에서 복구 일정을 공유해야 하니 9시 30분까지 알려주시면 감사하겠습니다.\n\n최가온 드림\n2팹 검사기술팀 | 010-0000-1234",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "urgent",
+      "equipment": [
+        "INSP-03",
+        "스테이지"
+      ],
+      "due": "2026-11-16T09:30",
+      "dueText": "9시 30분까지"
+    }
+  },
+  {
+    "id": "dev-03",
+    "subject": "INSP-03 다운타임 경과 보고 요청",
+    "senderName": "한도윤",
+    "senderEmail": "doyun.han@example.com",
+    "receivedAt": "2026-11-16T09:20:00",
+    "bodyText": "준서 님, 현장 대응 수고가 많습니다.\n\nINSP-03 건은 고객사 임원께도 보고가 올라간 상황이라 경과를 정리해 두어야 합니다.\n추정 원인, 교체 부품, 복구 예상 시각을 간단히 정리해서 오늘 17시까지 메일로 보내 주세요.\n알람 로그 캡처나 현장 사진이 있으면 함께 첨부 부탁합니다.\n\n한도윤 / CS기술1팀 팀장",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "important",
+      "equipment": [
+        "INSP-03"
+      ],
+      "due": "2026-11-16T17:00",
+      "dueText": "오늘 17시까지"
+    }
+  },
+  {
+    "id": "dev-04",
+    "subject": "[출고안내] 스테이지 리니어 엔코더 퀵 배송 출고 완료",
+    "senderName": "윤세라",
+    "senderEmail": "sera.yoon@example.org",
+    "receivedAt": "2026-11-16T10:05:00",
+    "bodyText": "안녕하세요, 부품영업팀 윤세라입니다.\n\n요청하신 스테이지 리니어 엔코더 1EA를 금일 10시에 퀵 배송으로 출고했습니다.\n현장 도착 예정 시각은 오늘 오후 2시경입니다.\n본 메일은 출고 안내용으로 별도 회신은 필요하지 않습니다.\n\n윤세라 드림\n부품영업팀",
+    "lang": "ko",
+    "labels": {
+      "needsReply": false,
+      "level": "normal",
+      "equipment": [
+        "스테이지"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-05",
+    "subject": "AOI-12 nuisance defect spike on M2 layer",
+    "senderName": "Ethan Morrow",
+    "senderEmail": "ethan.morrow@example.net",
+    "receivedAt": "2026-11-16T11:30:00",
+    "bodyText": "Hi Junseo,\n\nSince the Saturday night shift, AOI-12 has been flagging roughly three times the usual number of nuisance defects on M2 layer wafers. Our yield team suspects the autofocus is drifting.\nCan you share the autofocus logs and the recipe change history for the past two weeks? Please let me know by Nov 18 whether a recalibration will be needed.\n\nThanks,\nEthan Morrow\nProcess Integration, Fab 2",
+    "lang": "en",
+    "labels": {
+      "needsReply": true,
+      "level": "important",
+      "equipment": [
+        "AOI-12",
+        "autofocus"
+      ],
+      "due": "2026-11-18T18:00",
+      "dueText": "by Nov 18"
+    }
+  },
+  {
+    "id": "dev-06",
+    "subject": "[CS 소식지 11월호] 현장 우수 사례와 겨울철 건강 관리 팁",
+    "senderName": "사내 소식지",
+    "senderEmail": "newsletter@example.com",
+    "receivedAt": "2026-11-16T12:10:00",
+    "bodyText": "CS 소식지 11월호가 발행되었습니다.\n\n이번 호에서는 3분기 고객 만족도 우수 사례와 신규 입사자 소개를 전해드립니다.\n겨울철 현장 출동이 잦아지는 요즘, 손목과 허리 건강은 잘 챙기고 계신가요?\n사내 복지몰에서 온열 용품 할인 행사도 진행 중이니 많은 관심 부탁드립니다.\n\n※ 본 메일은 발신 전용입니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": false,
+      "level": "reference",
+      "equipment": [],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-07",
+    "subject": "11월 4주차 예방 정비(PM) 일정 공지",
+    "senderName": "정하람",
+    "senderEmail": "haram.jung@example.com",
+    "receivedAt": "2026-11-16T14:00:00",
+    "bodyText": "안녕하세요, 정비계획 담당 정하람입니다.\n\n다음 주 PM 일정을 아래와 같이 공지드립니다.\n- 11/23(월) EQ-07 월간 PM (광원 램프 교체 포함)\n- 11/25(수) CMP-2 후단 검사기 FFU 필터 점검\n- 11/26(목) INSP-05 진공 펌프 오일 교환\n\n일정 변경이 필요한 경우에만 담당 파트장과 협의 후 공유해 주십시오.\n\n정하람 / 정비계획파트",
+    "lang": "ko",
+    "labels": {
+      "needsReply": false,
+      "level": "normal",
+      "equipment": [
+        "EQ-07",
+        "광원 램프",
+        "CMP-2",
+        "FFU",
+        "INSP-05",
+        "진공 펌프"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-08",
+    "subject": "[회의] AOI-12 오검출 대응 사전 협의 (11/18 수 14:00)",
+    "senderName": "오세린",
+    "senderEmail": "serin.oh@example.com",
+    "receivedAt": "2026-11-16T15:30:00",
+    "bodyText": "안녕하세요, 기술지원파트 오세린입니다.\n\nAOI-12 오검출 증가 건으로 고객사 미팅 전에 내부 사전 협의를 진행하고자 합니다.\n일시: 11월 18일(수) 14:00~15:00\n장소: 본사 3층 소회의실 (화상 병행)\n\n캘린더에 일정을 등록해 두었으니 참고 부탁드리며, 별도 회신은 필요 없습니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": false,
+      "level": "normal",
+      "equipment": [
+        "AOI-12"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-09",
+    "subject": "[릴리스 노트] 검사기 제어 SW v4.12.3 배포 안내",
+    "senderName": "SW 배포 알림",
+    "senderEmail": "sw-release@example.com",
+    "receivedAt": "2026-11-16T16:45:00",
+    "bodyText": "검사기 제어 SW v4.12.3이 배포 서버에 등록되었습니다.\n\n주요 변경 사항\n1) 오토포커스 수렴 시간 단축 (평균 0.8초 → 0.5초)\n2) EFEM 로봇 티칭 화면 UI 개선\n3) E-2207 알람 오발생 버그 수정\n\n현장 적용은 고객사 승인 이후 별도 일정으로 진행되며, 본 메일은 참고용입니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": false,
+      "level": "reference",
+      "equipment": [
+        "오토포커스",
+        "EFEM"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-10",
+    "subject": "[일일 리포트] 11/16 담당 검사 장비 가동률 요약",
+    "senderName": "장비 모니터링 시스템",
+    "senderEmail": "eqmon-noreply@example.com",
+    "receivedAt": "2026-11-17T08:05:00",
+    "bodyText": "11/16 기준 담당 장비 가동률 요약입니다.\n\nINSP-03: 61.2% (다운타임 9.3h, ALM-2041)\nAOI-12: 94.8%\nEQ-07: 98.1%\nINSP-05: 99.4%\n\n본 리포트는 자동 생성되었으며 회신하실 필요 없습니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": false,
+      "level": "reference",
+      "equipment": [
+        "INSP-03",
+        "AOI-12",
+        "EQ-07",
+        "INSP-05"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-11",
+    "subject": "RE: INSP-03 다운 관련 긴급 지원 요청",
+    "senderName": "최가온",
+    "senderEmail": "gaon.choi@example.net",
+    "receivedAt": "2026-11-17T08:40:00",
+    "bodyText": "이준서 님, 어제 늦게까지 복구해 주셔서 감사합니다.\n오늘 새벽까지 INSP-03은 정상 가동 중이며 추가 알람은 없었습니다.\n\n엔코더 교체 후 스테이지 정밀도 검증 결과서를 내일 오전 중 보내주실 수 있을까요? 품질팀 보고서에 첨부하려고 합니다.\n\n최가온 드림\n\n> 현장 출동 가능 여부와 예상 도착 시간을 회신 부탁드립니다.\n> 오전 10시 생산회의에서 복구 일정을 공유해야 하니 9시 30분까지 알려주시면 감사하겠습니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "important",
+      "equipment": [
+        "INSP-03",
+        "스테이지"
+      ],
+      "due": "2026-11-18T12:00",
+      "dueText": "내일 오전 중"
+    }
+  },
+  {
+    "id": "dev-12",
+    "subject": "[필수] 4분기 클린룸 화학물질 안전교육 이수 안내",
+    "senderName": "안전환경팀",
+    "senderEmail": "safety@example.com",
+    "receivedAt": "2026-11-17T09:15:00",
+    "bodyText": "안녕하세요, 안전환경팀입니다.\n\n고객사 현장 출입 인원은 4분기 화학물질 취급 안전교육을 반드시 이수해야 합니다.\n교육은 사내 학습 포털에서 온라인으로 수강할 수 있으며 소요 시간은 약 40분입니다.\n미이수 시 12월부터 클린룸 출입이 제한될 수 있으니 11월 25일까지 수강을 완료해 주시기 바랍니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "normal",
+      "equipment": [],
+      "due": "2026-11-25T18:00",
+      "dueText": "11월 25일까지"
+    }
+  },
+  {
+    "id": "dev-13",
+    "subject": "Update: light source lamp modules for EQ-07 PM",
+    "senderName": "Olivia Brandt",
+    "senderEmail": "olivia.brandt@example.org",
+    "receivedAt": "2026-11-17T10:30:00",
+    "bodyText": "Hello,\n\nA quick update on the light source lamp modules reserved for your EQ-07 PM next week. Both units shipped from our regional warehouse this morning and are scheduled to arrive on Nov 20.\nNo action needed on your side; tracking details will be sent automatically.\n\nBest regards,\nOlivia Brandt\nCustomer Logistics",
+    "lang": "en",
+    "labels": {
+      "needsReply": false,
+      "level": "normal",
+      "equipment": [
+        "EQ-07",
+        "light source lamp"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-14",
+    "subject": "고객사 분기 리뷰 자료 - 장비 이슈 파트 검토 요청",
+    "senderName": "서지후",
+    "senderEmail": "jihoo.seo@example.com",
+    "receivedAt": "2026-11-17T11:20:00",
+    "bodyText": "준서 님, 다음 주 고객사 분기 리뷰 자료 초안을 첨부로 공유드립니다.\n\n장비 이슈 파트에 INSP-03 스테이지 건과 AOI-12 오검출 건을 정리해 두었는데, 사실관계가 맞는지 검토해 주시면 감사하겠습니다.\n혹시 빠진 이슈가 있을까요?\n이번 주 금요일까지 의견 주시면 반영하겠습니다.\n\n서지후 / 기술지원파트 파트장",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "important",
+      "equipment": [
+        "INSP-03",
+        "스테이지",
+        "AOI-12"
+      ],
+      "due": "2026-11-20T18:00",
+      "dueText": "이번 주 금요일까지"
+    }
+  },
+  {
+    "id": "dev-15",
+    "subject": "연말 잔여 연차 사용 계획 등록 안내",
+    "senderName": "인사팀",
+    "senderEmail": "hr@example.com",
+    "receivedAt": "2026-11-17T13:05:00",
+    "bodyText": "임직원 여러분, 안녕하세요. 인사팀입니다.\n\n연말 업무 공백을 최소화하기 위해 잔여 연차 사용 계획을 인사 시스템에 등록해 주시기 바랍니다.\n등록 기한은 이번 달 말까지이며, 팀장 승인 후 확정됩니다.\n문의 사항은 인사팀 담당자에게 연락 바랍니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "normal",
+      "equipment": [],
+      "due": "2026-11-30T18:00",
+      "dueText": "이번 달 말까지"
+    }
+  },
+  {
+    "id": "dev-16",
+    "subject": "[경고] AOI-12 광원 램프 사용 시간 임계치 근접 (Warning)",
+    "senderName": "장비 모니터링 시스템",
+    "senderEmail": "eqmon-noreply@example.com",
+    "receivedAt": "2026-11-17T15:40:00",
+    "bodyText": "자동 발송 메일입니다.\n\n장비: AOI-12\n이벤트: 광원 램프 누적 사용 시간 1,950h (교체 권장 2,000h)\n상태: 가동 중, 생산 영향 없음\n\n본 알림은 정보 제공용이며, 교체가 필요한 경우 정비계획 시스템에서 작업 지시가 별도로 발행됩니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": false,
+      "level": "normal",
+      "equipment": [
+        "AOI-12",
+        "광원 램프"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-17",
+    "subject": "[긴급] EQ-07 하부 칠러 냉각수 누수 발생 - 작업 중지",
+    "senderName": "백승민",
+    "senderEmail": "seungmin.baek@example.net",
+    "receivedAt": "2026-11-18T07:35:00",
+    "bodyText": "이준서 님, 2팹 설비안전 담당 백승민입니다.\n\n오늘 07시 20분경 EQ-07 하부 칠러 배관에서 냉각수 누수가 확인되어 해당 Bay 출입을 통제했습니다.\n전기 계통으로 번질 우려가 있어 장비 전원은 차단해 둔 상태입니다.\n즉시 현장에 오셔서 누수 지점 확인과 조치 계획을 공유해 주시기 바랍니다.\n\n백승민 드림\n2팹 설비안전 | 010-0000-5678",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "urgent",
+      "equipment": [
+        "EQ-07",
+        "칠러"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-18",
+    "subject": "FW: [공지] 2팹 동측 출입 게이트 공사에 따른 동선 변경",
+    "senderName": "한도윤",
+    "senderEmail": "doyun.han@example.com",
+    "receivedAt": "2026-11-18T08:50:00",
+    "bodyText": "참고하세요.\n\n---------- Forwarded message ----------\n보낸 사람: 2팹 시설관리팀\n11월 19일(목)부터 2주간 2팹 동측 출입 게이트 공사가 진행됩니다.\n공사 기간에는 서측 게이트를 이용해 주시고, 협력사 차량은 사전 등록 후 출입 가능합니다.\n궁금하신 점이 있으신가요? 시설관리팀으로 문의해 주십시오.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": false,
+      "level": "reference",
+      "equipment": [],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-19",
+    "subject": "Field data request: wafer chuck vacuum readings",
+    "senderName": "Daniel Okafor",
+    "senderEmail": "daniel.okafor@example.com",
+    "receivedAt": "2026-11-18T09:40:00",
+    "bodyText": "Hi Junseo,\n\nOur applications team is building a correlation model between wafer chuck vacuum levels and focus errors. Could you pull the vacuum readings from INSP-03 and INSP-05 for the last two weeks and upload them to the shared folder?\nWe need them within 2 days so the model can be reviewed in next week's sync.\n\nThanks a lot,\nDaniel Okafor\nApplications Engineering",
+    "lang": "en",
+    "labels": {
+      "needsReply": true,
+      "level": "important",
+      "equipment": [
+        "chuck",
+        "INSP-03",
+        "INSP-05"
+      ],
+      "due": "2026-11-20T18:00",
+      "dueText": "within 2 days"
+    }
+  },
+  {
+    "id": "dev-20",
+    "subject": "[광고] 연말 결산 특가! FFU 필터·이오나이저 소모품 최대 30% 할인",
+    "senderName": "부품몰 프로모션",
+    "senderEmail": "promo@example.org",
+    "receivedAt": "2026-11-18T11:10:00",
+    "bodyText": "정비 예산, 아직 남아 계신가요?\n\n연말을 맞아 FFU 필터, 이오나이저 에미터 팁, 진공 펌프 오일 등 인기 소모품을 특가로 제공합니다.\n지금 주문하시면 다음 주 안에 출고해 드립니다.\n\n수신을 원하지 않으시면 하단의 수신거부를 눌러 주세요.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": false,
+      "level": "reference",
+      "equipment": [
+        "FFU",
+        "이오나이저",
+        "진공 펌프"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-21",
+    "subject": "INSP-05 로드포트 LP2 도어 개폐 지연 현상 점검 요청",
+    "senderName": "김나율",
+    "senderEmail": "nayul.kim@example.net",
+    "receivedAt": "2026-11-18T13:30:00",
+    "bodyText": "이준서 님, 안녕하세요. 3팹 검사공정 김나율입니다.\n\nINSP-05 로드포트 LP2에서 FOUP 도어 개폐 시 2~3초 지연이 간헐적으로 발생하고 있습니다.\n아직 알람은 발생하지 않았지만 작업자 불편이 커서 점검 일정을 잡아 주셨으면 합니다\n가능한 날짜를 차주 화요일까지 알려주시면 생산 일정과 맞춰 보겠습니다\n\n김나율 드림",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "important",
+      "equipment": [
+        "INSP-05",
+        "로드포트",
+        "LP2"
+      ],
+      "due": "2026-11-24T18:00",
+      "dueText": "차주 화요일까지"
+    }
+  },
+  {
+    "id": "dev-22",
+    "subject": "[알람] INSP-05 EFEM 웨이퍼 핸들링 로봇 E-1203 흡착 실패 (Critical)",
+    "senderName": "장비 모니터링 시스템",
+    "senderEmail": "eqmon-noreply@example.com",
+    "receivedAt": "2026-11-18T15:00:00",
+    "bodyText": "본 메일은 자동 발송되었습니다.\n\n장비: INSP-05 / 모듈: EFEM 웨이퍼 핸들링 로봇\n알람 코드: E-1203 (End effector vacuum loss)\n발생 시각: 2026-11-18 14:52:10\n상태: 반송 중단, 웨이퍼 1매 로봇 암 위 정지, 생산 로트 홀드\n\n현장 확인 후 웨이퍼 회수 및 복구 조치 바랍니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "urgent",
+      "equipment": [
+        "INSP-05",
+        "EFEM",
+        "웨이퍼 핸들링 로봇"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-23",
+    "subject": "AOI-12 캘리브레이션 결과 공유 (참고용)",
+    "senderName": "문태오",
+    "senderEmail": "taeo.moon@example.com",
+    "receivedAt": "2026-11-18T17:20:00",
+    "bodyText": "준서 님, 오늘 오후 AOI-12 카메라 캘리브레이션을 마쳤습니다.\n오검출 원인으로 의심했던 오토포커스 오프셋도 함께 재조정했고, 기준 웨이퍼 측정값은 정상 범위로 들어왔습니다.\n결과 파일은 팀 공유 폴더에 올려 두었습니다. 참고용으로 드리는 것이라 회신은 안 주셔도 됩니다.\n\n문태오 드림\n010-0000-9012",
+    "lang": "ko",
+    "labels": {
+      "needsReply": false,
+      "level": "normal",
+      "equipment": [
+        "AOI-12",
+        "카메라",
+        "오토포커스"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-24",
+    "subject": "주간 담당 장비 이슈 현황 취합",
+    "senderName": "한도윤",
+    "senderEmail": "doyun.han@example.com",
+    "receivedAt": "2026-11-19T08:10:00",
+    "bodyText": "각 담당자분들께,\n\n금주 담당 장비 이슈 현황을 첨부 양식에 맞춰 작성 부탁드립니다.\n다운타임, 조치 내역, 잔여 이슈를 빠짐없이 기재해서 금일 중 제출 바랍니다.\n취합본은 내일 오전 본부장 보고에 사용할 예정입니다.\n\n한도윤",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "important",
+      "equipment": [],
+      "due": "2026-11-19T18:00",
+      "dueText": "금일 중"
+    }
+  },
+  {
+    "id": "dev-25",
+    "subject": "RE: 고객사 분기 리뷰 자료 - 장비 이슈 파트 검토 요청",
+    "senderName": "서지후",
+    "senderEmail": "jihoo.seo@example.com",
+    "receivedAt": "2026-11-19T09:30:00",
+    "bodyText": "준서 님, 보내주신 의견 모두 반영했습니다. 꼼꼼히 봐 주셔서 고맙습니다.\n최종본은 다음 주 리뷰 때 그대로 사용하겠습니다.\n\n서지후 드림\n\n> 혹시 빠진 이슈가 있을까요?\n> 이번 주 금요일까지 의견 주시면 반영하겠습니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": false,
+      "level": "reference",
+      "equipment": [],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-26",
+    "subject": "Confirm ionizer replacement window - AOI-12",
+    "senderName": "Grace Whitfield",
+    "senderEmail": "grace.whitfield@example.net",
+    "receivedAt": "2026-11-19T11:00:00",
+    "bodyText": "Hi Junseo,\n\nOur cleanroom team flagged elevated particle counts near the AOI-12 load station, and the ionizer bar above it is the prime suspect.\nCould you confirm whether your team can replace it during next Monday's maintenance window? I need to lock the schedule by end of day tomorrow.\n\nRegards,\nGrace Whitfield\nContamination Control, Fab 3",
+    "lang": "en",
+    "labels": {
+      "needsReply": true,
+      "level": "important",
+      "equipment": [
+        "AOI-12",
+        "ionizer"
+      ],
+      "due": "2026-11-20T18:00",
+      "dueText": "by end of day tomorrow"
+    }
+  },
+  {
+    "id": "dev-27",
+    "subject": "11월 법인카드 사용 내역 정산 안내",
+    "senderName": "재무팀",
+    "senderEmail": "finance@example.com",
+    "receivedAt": "2026-11-19T13:45:00",
+    "bodyText": "안녕하세요, 재무팀입니다.\n\n11월 법인카드 사용분 정산을 진행합니다. 출장 중 사용하신 내역의 영수증을 첨부하여 정산 시스템에 등록해 주시기 바랍니다.\n카드번호: 1234-5678-9012-3456 / 사번: A20419\n정산 마감은 11/24(화)까지이며, 기한 이후 등록분은 다음 달로 이월 처리됩니다.",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "normal",
+      "equipment": [],
+      "due": "2026-11-24T18:00",
+      "dueText": "11/24(화)까지"
+    }
+  },
+  {
+    "id": "dev-28",
+    "subject": "Weekly field sync - agenda for Friday",
+    "senderName": "Priya Nandakumar",
+    "senderEmail": "priya.nandakumar@example.com",
+    "receivedAt": "2026-11-19T16:20:00",
+    "bodyText": "Hi team,\n\nHere is the agenda for tomorrow's 10:00 weekly field sync:\n1. INSP-03 stage encoder replacement recap\n2. AOI-12 nuisance defect status\n3. Year-end PM capacity\n\nThe dial-in link is in the calendar invite. If you have nothing to add, there is no need to reply.\n\nPriya",
+    "lang": "en",
+    "labels": {
+      "needsReply": false,
+      "level": "normal",
+      "equipment": [
+        "INSP-03",
+        "stage",
+        "AOI-12"
+      ],
+      "due": null,
+      "dueText": null
+    }
+  },
+  {
+    "id": "dev-29",
+    "subject": "INSP-03 재발 방지 대책서 제출 요청",
+    "senderName": "최가온",
+    "senderEmail": "gaon.choi@example.net",
+    "receivedAt": "2026-11-20T08:30:00",
+    "bodyText": "이준서 님, 수고 많으십니다.\n\n지난 월요일 발생한 INSP-03 스테이지 다운 건에 대해 품질팀에서 재발 방지 대책서를 요청했습니다.\n근본 원인, 부품 교체 이력, 점검 주기 변경안을 포함해서 다음 주 월요일 오전 10시까지 송부 부탁드립니다.\n작성 양식은 첨부 파일을 참고해 주세요.\n\n최가온 드림",
+    "lang": "ko",
+    "labels": {
+      "needsReply": true,
+      "level": "important",
+      "equipment": [
+        "INSP-03",
+        "스테이지"
+      ],
+      "due": "2026-11-23T10:00",
+      "dueText": "다음 주 월요일 오전 10시까지"
+    }
+  },
+  {
+    "id": "dev-30",
+    "subject": "Scheduled security update for company laptops",
+    "senderName": "IT Service Desk",
+    "senderEmail": "itdesk@example.com",
+    "receivedAt": "2026-11-20T18:25:00",
+    "bodyText": "Dear colleagues,\n\nThe monthly security update will be pushed to all company laptops on Saturday, Nov 21, starting at 02:00. Devices will restart automatically once the installation completes.\nThis notice is for awareness only, and there is nothing you need to do.\n\nIT Service Desk",
+    "lang": "en",
+    "labels": {
+      "needsReply": false,
+      "level": "reference",
+      "equipment": [],
+      "due": null,
+      "dueText": null
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mdcv-static",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "3106", "--bind", "127.0.0.1", "--directory", "apps/web/out"],
+      "port": 3106
+    }
+  ]
+}

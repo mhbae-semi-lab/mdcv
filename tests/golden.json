@@ -1,0 +1,902 @@
+[
+ {
+  "id": "g-u00",
+  "subject": "[긴급] 펌프 이상 발생",
+  "senderName": "김담당",
+  "senderEmail": "u0@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "펌프에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u01",
+  "subject": "[긴급] 보일러 이상 발생",
+  "senderName": "박기사",
+  "senderEmail": "u1@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "보일러에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u02",
+  "subject": "[긴급] 냉각탑 이상 발생",
+  "senderName": "이과장",
+  "senderEmail": "u2@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "냉각탑에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u03",
+  "subject": "[긴급] 변압기 이상 발생",
+  "senderName": "최주임",
+  "senderEmail": "u3@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "변압기에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u04",
+  "subject": "[긴급] 공조기 이상 발생",
+  "senderName": "정대리",
+  "senderEmail": "u4@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "공조기에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u05",
+  "subject": "[긴급] 컴프레서 이상 발생",
+  "senderName": "김담당",
+  "senderEmail": "u5@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "컴프레서에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u06",
+  "subject": "[긴급] 열교환기 이상 발생",
+  "senderName": "박기사",
+  "senderEmail": "u6@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "열교환기에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u07",
+  "subject": "[긴급] 컨베이어 이상 발생",
+  "senderName": "이과장",
+  "senderEmail": "u7@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "컨베이어에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u08",
+  "subject": "[긴급] 펌프 이상 발생",
+  "senderName": "최주임",
+  "senderEmail": "u8@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "펌프에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u09",
+  "subject": "[긴급] 보일러 이상 발생",
+  "senderName": "정대리",
+  "senderEmail": "u9@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "보일러에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u10",
+  "subject": "[긴급] 냉각탑 이상 발생",
+  "senderName": "김담당",
+  "senderEmail": "u10@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "냉각탑에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u11",
+  "subject": "[긴급] 변압기 이상 발생",
+  "senderName": "박기사",
+  "senderEmail": "u11@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "변압기에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u12",
+  "subject": "[긴급] 공조기 이상 발생",
+  "senderName": "이과장",
+  "senderEmail": "u12@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "공조기에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u13",
+  "subject": "[긴급] 컴프레서 이상 발생",
+  "senderName": "최주임",
+  "senderEmail": "u13@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "컴프레서에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u14",
+  "subject": "[긴급] 열교환기 이상 발생",
+  "senderName": "정대리",
+  "senderEmail": "u14@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "열교환기에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u15",
+  "subject": "[긴급] 컨베이어 이상 발생",
+  "senderName": "김담당",
+  "senderEmail": "u15@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "컨베이어에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u16",
+  "subject": "[긴급] 펌프 이상 발생",
+  "senderName": "박기사",
+  "senderEmail": "u16@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "펌프에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u17",
+  "subject": "[긴급] 보일러 이상 발생",
+  "senderName": "이과장",
+  "senderEmail": "u17@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "보일러에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u18",
+  "subject": "[긴급] 냉각탑 이상 발생",
+  "senderName": "최주임",
+  "senderEmail": "u18@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "냉각탑에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u19",
+  "subject": "[긴급] 변압기 이상 발생",
+  "senderName": "정대리",
+  "senderEmail": "u19@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "변압기에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u20",
+  "subject": "[긴급] 공조기 이상 발생",
+  "senderName": "김담당",
+  "senderEmail": "u20@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "공조기에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u21",
+  "subject": "[긴급] 컴프레서 이상 발생",
+  "senderName": "박기사",
+  "senderEmail": "u21@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "컴프레서에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u22",
+  "subject": "[긴급] 열교환기 이상 발생",
+  "senderName": "이과장",
+  "senderEmail": "u22@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "열교환기에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u23",
+  "subject": "[긴급] 컨베이어 이상 발생",
+  "senderName": "최주임",
+  "senderEmail": "u23@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "컨베이어에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-u24",
+  "subject": "[긴급] 펌프 이상 발생",
+  "senderName": "정대리",
+  "senderEmail": "u24@example.com",
+  "receivedAt": "2026-10-23T08:00:00",
+  "bodyText": "펌프에서 장애가 발생해 라인이 중단됐습니다. 즉시 점검 부탁드립니다. 내일까지 조치 결과를 회신 부탁드립니다.",
+  "expected": "urgent"
+ },
+ {
+  "id": "g-i00",
+  "subject": "실적 보고서 제출 요청 0",
+  "senderName": "김담당",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i01",
+  "subject": "실적 보고서 제출 요청 1",
+  "senderName": "박기사",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i02",
+  "subject": "실적 보고서 제출 요청 2",
+  "senderName": "이과장",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i03",
+  "subject": "실적 보고서 제출 요청 3",
+  "senderName": "최주임",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i04",
+  "subject": "실적 보고서 제출 요청 4",
+  "senderName": "정대리",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i05",
+  "subject": "실적 보고서 제출 요청 5",
+  "senderName": "김담당",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i06",
+  "subject": "실적 보고서 제출 요청 6",
+  "senderName": "박기사",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i07",
+  "subject": "실적 보고서 제출 요청 7",
+  "senderName": "이과장",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i08",
+  "subject": "실적 보고서 제출 요청 8",
+  "senderName": "최주임",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i09",
+  "subject": "실적 보고서 제출 요청 9",
+  "senderName": "정대리",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i10",
+  "subject": "실적 보고서 제출 요청 10",
+  "senderName": "김담당",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i11",
+  "subject": "실적 보고서 제출 요청 11",
+  "senderName": "박기사",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i12",
+  "subject": "실적 보고서 제출 요청 12",
+  "senderName": "이과장",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i13",
+  "subject": "실적 보고서 제출 요청 13",
+  "senderName": "최주임",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i14",
+  "subject": "실적 보고서 제출 요청 14",
+  "senderName": "정대리",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i15",
+  "subject": "실적 보고서 제출 요청 15",
+  "senderName": "김담당",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i16",
+  "subject": "실적 보고서 제출 요청 16",
+  "senderName": "박기사",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i17",
+  "subject": "실적 보고서 제출 요청 17",
+  "senderName": "이과장",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i18",
+  "subject": "실적 보고서 제출 요청 18",
+  "senderName": "최주임",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i19",
+  "subject": "실적 보고서 제출 요청 19",
+  "senderName": "정대리",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i20",
+  "subject": "실적 보고서 제출 요청 20",
+  "senderName": "김담당",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i21",
+  "subject": "실적 보고서 제출 요청 21",
+  "senderName": "박기사",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i22",
+  "subject": "실적 보고서 제출 요청 22",
+  "senderName": "이과장",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i23",
+  "subject": "실적 보고서 제출 요청 23",
+  "senderName": "최주임",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-i24",
+  "subject": "실적 보고서 제출 요청 24",
+  "senderName": "정대리",
+  "senderEmail": "boss@example.com",
+  "receivedAt": "2026-10-23T09:00:00",
+  "bodyText": "월간 실적 보고서를 오늘까지 제출 바랍니다. 검토가 필요하니 회신 부탁드립니다.",
+  "expected": "important"
+ },
+ {
+  "id": "g-n00",
+  "subject": "정기 회의 일정 안내 0",
+  "senderName": "김담당",
+  "senderEmail": "n0@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n01",
+  "subject": "정기 회의 일정 안내 1",
+  "senderName": "박기사",
+  "senderEmail": "n1@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n02",
+  "subject": "정기 회의 일정 안내 2",
+  "senderName": "이과장",
+  "senderEmail": "n2@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n03",
+  "subject": "정기 회의 일정 안내 3",
+  "senderName": "최주임",
+  "senderEmail": "n3@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n04",
+  "subject": "정기 회의 일정 안내 4",
+  "senderName": "정대리",
+  "senderEmail": "n4@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n05",
+  "subject": "정기 회의 일정 안내 5",
+  "senderName": "김담당",
+  "senderEmail": "n5@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n06",
+  "subject": "정기 회의 일정 안내 6",
+  "senderName": "박기사",
+  "senderEmail": "n6@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n07",
+  "subject": "정기 회의 일정 안내 7",
+  "senderName": "이과장",
+  "senderEmail": "n7@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n08",
+  "subject": "정기 회의 일정 안내 8",
+  "senderName": "최주임",
+  "senderEmail": "n8@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n09",
+  "subject": "정기 회의 일정 안내 9",
+  "senderName": "정대리",
+  "senderEmail": "n9@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n10",
+  "subject": "정기 회의 일정 안내 10",
+  "senderName": "김담당",
+  "senderEmail": "n10@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n11",
+  "subject": "정기 회의 일정 안내 11",
+  "senderName": "박기사",
+  "senderEmail": "n11@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n12",
+  "subject": "정기 회의 일정 안내 12",
+  "senderName": "이과장",
+  "senderEmail": "n12@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n13",
+  "subject": "정기 회의 일정 안내 13",
+  "senderName": "최주임",
+  "senderEmail": "n13@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n14",
+  "subject": "정기 회의 일정 안내 14",
+  "senderName": "정대리",
+  "senderEmail": "n14@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n15",
+  "subject": "정기 회의 일정 안내 15",
+  "senderName": "김담당",
+  "senderEmail": "n15@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n16",
+  "subject": "정기 회의 일정 안내 16",
+  "senderName": "박기사",
+  "senderEmail": "n16@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n17",
+  "subject": "정기 회의 일정 안내 17",
+  "senderName": "이과장",
+  "senderEmail": "n17@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n18",
+  "subject": "정기 회의 일정 안내 18",
+  "senderName": "최주임",
+  "senderEmail": "n18@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n19",
+  "subject": "정기 회의 일정 안내 19",
+  "senderName": "정대리",
+  "senderEmail": "n19@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n20",
+  "subject": "정기 회의 일정 안내 20",
+  "senderName": "김담당",
+  "senderEmail": "n20@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n21",
+  "subject": "정기 회의 일정 안내 21",
+  "senderName": "박기사",
+  "senderEmail": "n21@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n22",
+  "subject": "정기 회의 일정 안내 22",
+  "senderName": "이과장",
+  "senderEmail": "n22@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n23",
+  "subject": "정기 회의 일정 안내 23",
+  "senderName": "최주임",
+  "senderEmail": "n23@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-n24",
+  "subject": "정기 회의 일정 안내 24",
+  "senderName": "정대리",
+  "senderEmail": "n24@example.com",
+  "receivedAt": "2026-10-23T14:00:00",
+  "bodyText": "다음 주 월요일 오전 10시에 정기 회의가 있습니다. 참석 여부를 알려 주시기 바랍니다.",
+  "expected": "normal"
+ },
+ {
+  "id": "g-r00",
+  "subject": "주간 소식 뉴스레터 0",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r01",
+  "subject": "주간 소식 뉴스레터 1",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r02",
+  "subject": "주간 소식 뉴스레터 2",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r03",
+  "subject": "주간 소식 뉴스레터 3",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r04",
+  "subject": "주간 소식 뉴스레터 4",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r05",
+  "subject": "주간 소식 뉴스레터 5",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r06",
+  "subject": "주간 소식 뉴스레터 6",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r07",
+  "subject": "주간 소식 뉴스레터 7",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r08",
+  "subject": "주간 소식 뉴스레터 8",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r09",
+  "subject": "주간 소식 뉴스레터 9",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r10",
+  "subject": "주간 소식 뉴스레터 10",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r11",
+  "subject": "주간 소식 뉴스레터 11",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r12",
+  "subject": "주간 소식 뉴스레터 12",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r13",
+  "subject": "주간 소식 뉴스레터 13",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r14",
+  "subject": "주간 소식 뉴스레터 14",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r15",
+  "subject": "주간 소식 뉴스레터 15",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r16",
+  "subject": "주간 소식 뉴스레터 16",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r17",
+  "subject": "주간 소식 뉴스레터 17",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r18",
+  "subject": "주간 소식 뉴스레터 18",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r19",
+  "subject": "주간 소식 뉴스레터 19",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r20",
+  "subject": "주간 소식 뉴스레터 20",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r21",
+  "subject": "주간 소식 뉴스레터 21",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r22",
+  "subject": "주간 소식 뉴스레터 22",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r23",
+  "subject": "주간 소식 뉴스레터 23",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ },
+ {
+  "id": "g-r24",
+  "subject": "주간 소식 뉴스레터 24",
+  "senderName": "소식지",
+  "senderEmail": "news@example.com",
+  "receivedAt": "2026-10-23T07:00:00",
+  "bodyText": "이번 주 소식과 이벤트 안내를 전해드립니다. 구독 해지는 unsubscribe를 이용하세요.",
+  "expected": "reference"
+ }
+]

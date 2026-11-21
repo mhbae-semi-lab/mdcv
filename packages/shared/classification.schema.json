@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mdcv.local/schemas/classification.schema.json",
+  "title": "MDCV 메일 분류 결과",
+  "type": "object",
+  "required": ["messageId", "importance", "period", "entities", "summary", "actionItems", "needsReply", "confidence", "engine"],
+  "properties": {
+    "messageId": {"type": "string"},
+    "importance": {
+      "type": "object",
+      "required": ["level", "score", "reasons"],
+      "properties": {
+        "level": {"type": "string", "enum": ["urgent", "important", "normal", "reference"]},
+        "score": {"type": "integer", "minimum": 0, "maximum": 100},
+        "reasons": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "period": {"type": "string", "enum": ["morning", "afternoon", "daily", "weekly", "monthly", "yearly"]},
+    "entities": {
+      "type": "object",
+      "properties": {
+        "equipment": {"type": "array", "items": {"type": "string"}},
+        "dates": {"type": "array", "items": {"type": "object", "properties": {"raw": {"type": "string"}, "iso": {"type": ["string", "null"]}, "kind": {"type": "string", "enum": ["deadline", "meeting", "mentioned"]}}}},
+        "people": {"type": "array", "items": {"type": "string"}},
+        "keywords": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "summary": {"type": "string"},
+    "actionItems": {"type": "array", "items": {"type": "object", "properties": {"text": {"type": "string"}, "due": {"type": ["string", "null"]}, "owner": {"type": ["string", "null"]}}}},
+    "needsReply": {"type": "boolean"},
+    "correction": {"type": ["object", "null"], "properties": {"corrected": {"type": "string"}, "issues": {"type": "array", "items": {"type": "object"}}}},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "engine": {"type": "string", "enum": ["rule", "llm", "hybrid"]}
+  }
+}

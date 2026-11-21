@@ -1,0 +1,20 @@
+# Self-host: docker compose up --build   then open http://127.0.0.1:3000
+services:
+  api:
+    build: { context: ., dockerfile: apps/api/Dockerfile }
+    env_file: [.env]
+    environment:
+      - MDCV_DB=/data/mdcv.db
+      - MDCV_WEB_URL=${MDCV_WEB_URL:-http://localhost:3000}
+      - MDCV_API_BASE=${MDCV_API_BASE:-http://localhost:8000}
+    volumes: [mdcv-data:/data]  # DB and the encryption key file (mdcv.key) live here: back up both
+    ports: ["127.0.0.1:8000:8000"]  # this PC only. To expose it, put HTTPS in front and set MDCV_API_TOKEN
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://127.0.0.1:8000}  # baked into the static files at build time
+    ports: ["127.0.0.1:3000:80"]
+    depends_on: [api]
+volumes: { mdcv-data: {} }

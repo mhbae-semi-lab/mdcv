@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-11-22T01:07:11",
+  "unitTests": {
+    "total": 50,
+    "failures": 0,
+    "errors": 0,
+    "passed": 50,
+    "success": true
+  },
+  "goldenRegression": {
+    "note": "합성 템플릿 4종 x 25통. 규칙이 바뀌어도 기존 판단이 유지되는지 보는 회귀 확인용이며 정확도가 아닙니다.",
+    "total": 100,
+    "sameLevel": 100,
+    "confusion": {
+      "urgent": {
+        "urgent": 25
+      },
+      "important": {
+        "important": 25
+      },
+      "normal": {
+        "normal": 25
+      },
+      "reference": {
+        "reference": 25
+      }
+    }
+  },
+  "fabSets": {
+    "dev": {
+      "mails": 30,
+      "replyNeeded": 16,
+      "replyMissed": 0,
+      "replyFalseAlarm": 0,
+      "hotMissed": 0,
+      "dueDay": "13/13",
+      "equipment": "54/54"
+    },
+    "holdout": {
+      "mails": 30,
+      "replyNeeded": 15,
+      "replyMissed": 0,
+      "replyFalseAlarm": 0,
+      "hotMissed": 1,
+      "dueDay": "12/12",
+      "equipment": "55/55"
+    },
+    "blind2": {
+      "mails": 30,
+      "replyNeeded": 16,
+      "replyMissed": 0,
+      "replyFalseAlarm": 0,
+      "hotMissed": 0,
+      "dueDay": "13/13",
+      "equipment": "59/59"
+    },
+    "note": "Numbers after tuning on these sets; first-look numbers on unseen sets are in docs/evaluation-log.json."
+  },
+  "environment": {
+    "python": "3.8.10"
+  },
+  "detail": "..................................................\n----------------------------------------------------------------------\nRan 50 tests in 1.826s\n\nOK\n"
+}

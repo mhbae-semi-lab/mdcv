@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+*.pptx binary
+*.pdf binary
+packages/shared/samples/files/* binary

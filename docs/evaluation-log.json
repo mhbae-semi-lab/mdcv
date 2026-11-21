@@ -1,0 +1,106 @@
+{
+ "note": "Synthetic fab mail sets, labels written by a separate agent that never saw the rules. v1 = original engine (baseline commit). Numbers are a regression check on synthetic phrasing, not accuracy on real mail.",
+ "runs": [
+  {
+   "engine": "v1",
+   "set": "dev",
+   "replyMissed": "8/16",
+   "replyFalseAlarm": 4,
+   "levelExact": "6/30",
+   "hotMissed": 6,
+   "dueDay": "5/13",
+   "equipmentRecall": "26/54"
+  },
+  {
+   "engine": "v1",
+   "set": "holdout",
+   "replyMissed": "9/15",
+   "replyFalseAlarm": 3,
+   "levelExact": "12/30",
+   "hotMissed": 8,
+   "dueDay": "2/12",
+   "equipmentRecall": "21/55"
+  },
+  {
+   "engine": "v3 (frozen, holdout unseen)",
+   "set": "holdout",
+   "replyMissed": "4/15",
+   "replyFalseAlarm": 1,
+   "levelExact": "16/30",
+   "hotMissed": 2,
+   "dueDay": "12/12",
+   "equipmentRecall": "52/55"
+  },
+  {
+   "engine": "v4 (after reading holdout misses)",
+   "set": "dev",
+   "replyMissed": "0/16",
+   "replyFalseAlarm": 0,
+   "levelExact": "25/30",
+   "hotMissed": 0,
+   "dueDay": "13/13",
+   "equipmentRecall": "54/54"
+  },
+  {
+   "engine": "v4 (after reading holdout misses)",
+   "set": "holdout",
+   "replyMissed": "0/15",
+   "replyFalseAlarm": 0,
+   "levelExact": "21/30",
+   "hotMissed": 1,
+   "dueDay": "12/12",
+   "equipmentRecall": "55/55"
+  },
+  {
+   "engine": "v1",
+   "set": "blind2",
+   "replyMissed": "11/16",
+   "replyFalseAlarm": 5,
+   "levelExact": "8/30",
+   "hotMissed": 8,
+   "dueDay": "4/13",
+   "equipmentRecall": "24/59"
+  },
+  {
+   "engine": "v4 (frozen, blind2 unseen)",
+   "set": "blind2",
+   "replyMissed": "5/16",
+   "replyFalseAlarm": 1,
+   "levelExact": "19/30",
+   "hotMissed": 0,
+   "dueDay": "10/13",
+   "equipmentRecall": "43/59 (scorer did not yet treat AOI_09 = AOI-09)"
+  },
+  {
+   "engine": "v5 (after reading blind2 misses)",
+   "set": "dev",
+   "replyMissed": "0/16",
+   "replyFalseAlarm": 0,
+   "levelExact": "25/30",
+   "hotMissed": 0,
+   "dueDay": "13/13",
+   "equipmentRecall": "54/54"
+  },
+  {
+   "engine": "v5 (after reading blind2 misses)",
+   "set": "holdout",
+   "replyMissed": "0/15",
+   "replyFalseAlarm": 0,
+   "levelExact": "21/30",
+   "hotMissed": 1,
+   "dueDay": "12/12",
+   "equipmentRecall": "55/55"
+  },
+  {
+   "engine": "v5 (after reading blind2 misses)",
+   "set": "blind2",
+   "replyMissed": "0/16",
+   "replyFalseAlarm": 0,
+   "levelExact": "19/30",
+   "hotMissed": 0,
+   "dueDay": "13/13",
+   "equipmentRecall": "59/59"
+  }
+ ],
+ "generalization": "Unseen-set first looks: v3 on holdout missed 4/15 reply-needed mails, v4 on blind2 missed 5/16 (v1 baseline: 9/15 and 11/16). Expect rule-only recall of roughly 70% on phrasing the rules have not met; the LLM shadow and user corrections are the way to find the rest."
+}
